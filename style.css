@@ -13,3 +13,56 @@ html {
   font-size: 62.5%;
 }
 /* End of Common Styles */
+
+/* Section 1 */
+.section-1 {
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(
+      to top,
+      rgba(38, 38, 38, 0.7),
+      rgba(38, 38, 38, 0.6)
+    ),
+    url(images/bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  height: 8rem;
+  border-bottom: 0.1rem solid #aaa;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 120rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 800;
+  color: #fff;
+  position: relative;
+}
+
+.p-1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.p-2 {
+  font-size: 4.5rem;
+  color: #bbb;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+}
+/* End of Section 1 */
