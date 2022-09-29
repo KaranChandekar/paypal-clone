@@ -12,7 +12,48 @@
 html {
   font-size: 62.5%;
 }
+
+.logo {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 800;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.p-1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.p-2 {
+  font-size: 4.5rem;
+  color: #bbb;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+}
+
+.blue-btn {
+  width: 35rem;
+  height: 5rem;
+  background-color: #036bb1;
+  color: #fff;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
 /* End of Common Styles */
+
+/* Front Page */
+.front-page {
+  /* display: none; */
+}
 
 /* Section 1 */
 .section-1 {
@@ -44,27 +85,8 @@ html {
   align-items: center;
 }
 
-.navbar-logo {
-  font-size: 3.5rem;
-  font-style: italic;
-  font-weight: 800;
-  color: #fff;
-  position: relative;
-}
-
-.p-1 {
-  font-size: 4.5rem;
-  margin-right: 1rem;
-  position: relative;
-  z-index: 10;
-}
-
-.p-2 {
-  font-size: 4.5rem;
-  color: #bbb;
-  position: absolute;
-  top: 0.4rem;
-  left: 0.5rem;
+.menu {
+  display: none;
 }
 
 .nav-list {
@@ -83,6 +105,43 @@ html {
   border-bottom: 0.2rem solid #fff;
 }
 
+.nav-dropdown {
+  width: 100%;
+  height: 20rem;
+  background: linear-gradient(to right, #066399, #2f8fdf, #066399);
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  z-index: 100;
+  padding: 0 30rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-dropdown-item {
+  width: 25rem;
+  margin: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-heading {
+  display: none;
+}
+
+.nav-dropdown-link-1 {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.nav-dropdown-link-2 {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
 .nav-list-link {
   width: 100%;
   height: 100%;
@@ -98,10 +157,6 @@ html {
   font-size: 1.5rem;
   margin-left: 0.5rem;
   transition: transform 0.3s;
-}
-
-.nav-list-item:hover .nav-list-link i {
-  transform: rotateZ(180deg);
 }
 
 .navbar-btn {
@@ -145,14 +200,4 @@ html {
   margin: 0 auto 4rem auto;
 }
 
-.blue-btn {
-  width: 35rem;
-  height: 5rem;
-  background-color: #036bb1;
-  color: #fff;
-  border-radius: 3rem;
-  border: none;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
 /* End of Section 1 */
