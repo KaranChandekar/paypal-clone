@@ -10,6 +10,9 @@ Fully responsive PayPal clone website using HTML, CSS and JavaScript.
 https://user-images.githubusercontent.com/93200960/196205915-469c1573-9332-4e33-aca6-9a2caa1c1136.mp4
 
 
+## 🚀 About Me
+I'm a self tought frontend web developer...
+
 ## 🔗 Links
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-me-karanchandekar.vercel.app/)
